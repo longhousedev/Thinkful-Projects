@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+.canvas {
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    font-size: 0;
+    border: 1px solid black;
+}
+
+.block1 {
+    height: 200px;
+    width: 50%;
+}
+
+.block2 {
+    height: 300px;
+    width: 33.33%;
+}
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}

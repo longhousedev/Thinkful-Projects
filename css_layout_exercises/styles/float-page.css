@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+main {
+  padding-left: 90px;
+  padding-right: 90px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p img[src="images/nebula1.png"] {
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+  float: left;
+}
+
+p img[src="images/nebula2.png"] {
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+  float: right;
+}

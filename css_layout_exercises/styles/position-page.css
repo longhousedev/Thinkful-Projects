@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+.top-nav {
+    height: 60px;
+    position: fixed;
+    background-color: grey;
+    width: 100%;
+}
+
+.top-nav .image {
+    display: inline-block;
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.top-nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.link {
+    display: inline-block;
+}
+
+.link:hover {
+    color: firebrick;
+}
+
+.link::after {
+    content: '|';
+    margin-left: 5px;
+}
+
+
+.block {
+    margin-top: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 600px;
+    border: 10px green dotted;
+}
+
+.block img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+.block img[src="images/spacecat.png"] {
+    top: -90px;
+    left: -90px;
+
+}
+
+.block img[src="images/spacedog.png"] {
+    bottom: -120px;
+    right: -60px;
+
+}
+
+main {
+    font-size: 0;
+    padding-top: 90px;
+    min-width: 1000px;
+}
+
+body {
+    background: url(../images/outerspace_landscape.jpeg) no-repeat;
+    background-size: cover;
+  }
